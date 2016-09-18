@@ -46,7 +46,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg' #for heroku
   gem 'rails_12factor'
 end
 
