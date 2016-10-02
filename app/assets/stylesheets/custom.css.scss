@@ -39,8 +39,17 @@ $navbar-default-bg: black;
   background-color: black;
 }
 
+.article-actions {
+  border-top: 2px solid #eaeaea;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+
 footer {
-  margin-top: 45 px;
+  margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
@@ -51,7 +60,7 @@ footer a:hover {
 }
 
 footer small {
-  float left; //small within footer erb
+  float: left; //small within footer erb
 }
 
 footer ul {
